@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f4f4f4;
-    color: #333;
+    background: #29354e;
+    color: #ffffff;
 }
 
 p {
@@ -15,7 +15,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #555;
+    color: #ffffff;
 }
 
 a,
@@ -75,7 +75,7 @@ a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #475877;
+    border-bottom: 1px solid #ffffff;
 }
 
 #sidebar ul p {
@@ -148,16 +148,16 @@ a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
     margin-left: 15px;
-    background: #fff;
+    background: #3498db;
 }
 
 /* Encabezados */
 h1, h2 {
-    color: #29354E;
+    color: #ffffff;
 }
 
 /* MEDIAQUERIES */
-@media (max-width: 768px) {
+@media (max-width: 768px) py{
     #sidebar {
         margin-left: -250px;
     }
