@@ -23,6 +23,10 @@
                 <h3>App Fondos Mutuos</h3>
             </div>
             <ul class="list-unstyled components">
+      <!-- Ajusta la ruta según la ubicación de Somos Innovators.html -->
+                <li>
+                    <a class="asidebar" href="{{ url_for('static', filename='somosinnovators.html') }}" target="_blank">Somos Innovators</a>
+                </li>
                 <li>
                     <a class="asidebar" href="{{ url_for('fondos_mutuos') }}">Sobre FFMM</a>
                 </li>
@@ -31,10 +35,6 @@
                 </li>
                 <li>
                     <a class="asidebar" href="{{ url_for('portafolios') }}">Portafolio FFMM</a>
-                </li>
-                <!-- Ajusta la ruta según la ubicación de Somos Innovators.html -->
-                <li>
-                    <a class="asidebar" href="{{ url_for('static', filename='somosinnovators.html') }}" target="_blank">Somos Innovators</a>
                 </li>
             </ul>
         </nav>
