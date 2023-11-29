@@ -3,13 +3,13 @@
 <div id="content">
     {% block content %}
    
-    <h1>Descubre los Fondos Mutuos en Chile</h1>
+    <h1 style="clear: both;">Descubre los Fondos Mutuos en Chile</h1>
 
     <h2>Inversión Inteligente para Crecimiento Financiero</h2>
 
-    <!-- Agrega la imagen a la derecha del texto -->
-    <div style="float: right; margin: 0 0 20px 20px;">
-        <img src="logoem.jpg" alt="Logo de Fondos Mutuos en Chile" style="max-width: 100%; height: auto;">
+    <!-- Agrega la imagen en la esquina superior derecha -->
+    <div style="position: relative; float: right; margin: -120px 20px 20px 0;">
+        <img src="{{ url_for('static', filename='logoem.jpg') }}" alt="Logo de Fondos Mutuos en Chile" style="max-width: 100px; height: auto;">
     </div>
   
     <hr>
