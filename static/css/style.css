@@ -7,7 +7,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #29354e;
-    color: #ffffff;
+    color: #000000;
 }
 
 p {
@@ -21,7 +21,7 @@ p {
 a,
 a:hover,
 a:focus {
-    color: #007BFF;
+    color: #000000;
     text-decoration: none;
     transition: all 0.3s;
 }
@@ -132,7 +132,7 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: #007BFF;
+    color: #419dff;
 }
 
 a.article,
@@ -370,5 +370,5 @@ label{
 }
 
 .asidebar {
-    color: #ddd;
+    color: #ffff;
 }
